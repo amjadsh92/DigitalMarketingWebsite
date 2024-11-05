@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "Mona Sans";
+    src: url("./../../assets/fonts/mona_sans/Mona-Sans-Regular.ttf");
+  }
+  
+  @font-face {
+    font-family: "Mona Sans";
+    src: url("./../../assets/fonts/mona_sans/Mona-Sans-SemiBold.ttf");
+    font-weight: bold;
+  }
+
+
+
+.navbar {
+    display: flex;
+    padding: 30px 50px;
+    width: 93%;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    align-items:center;
+    background-color: rgb(41, 121, 142);
+}
+
+
+.nav-links {
+    list-style: none;
+    width:100%;
+    gap:40px;
+    margin: 0;
+}
+
+
+
+.nav-links a {
+    color: rgb(231, 231, 231);
+    text-decoration: none;
+    font-family: "Mona Sans";
+    font-size: 16px;
+    padding: 8px 12px;
+    border-radius: 10px;
+    border-color:black;
+    transition: background-color 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: lightblue; 
+    color:rgb(41, 121, 142);
+
+}
+
+
+button {
+    border: 0;
+    cursor: pointer;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+
+  img {
+    width: 40px;
+    height: 40px;
+   
+  }
+
+ .logo{
+    margin-right:40px;
+    align-self: left;
+    
+ }
+  
