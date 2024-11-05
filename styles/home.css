@@ -28,12 +28,12 @@
     left:10%;
     font-family: "Mona Sans";
     font-size: 35px;
-    width:20%
+    width:20%;
+     
+
     
 
 }
-
-
 
 
 .about > h2 {
@@ -44,7 +44,56 @@
     margin-left: 20px
 }
 
+
+.about{
+    background-color: rgb(63, 141, 161);
+}
+
 .about-paragraph{
 
     margin-left:20px;
+    width:100%;
+    
+    gap:5em;
+    
+}
+
+.about-paragraph > p{
+
+
+    font-family: "Mona Sans";
+    font-size:20px;
+    font-style:italic;
+    font-weight: 200;
+    line-height: 1.2em;
+    width:70%;
+    
+
+}
+.about-paragraph > button{
+
+    width:fit-content;
+    height:fit-content;
+    padding: 1em;
+    cursor: pointer;
+    text-align: center;
+    border-radius:15px;
+    background-color: rgb(16, 16, 151);
+    color:rgb(231, 231, 231)
+
+
+}
+
+
+.card-images{
+
+    gap:5em;
+    margin-top:40px
+
+}
+
+.card-images > img{
+
+    width:20%;
+    height: 60%
 }
