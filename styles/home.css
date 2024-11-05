@@ -32,3 +32,19 @@
     
 
 }
+
+
+
+
+.about > h2 {
+
+
+    font-family: "Mona Sans";
+    font-size: 35px;
+    margin-left: 20px
+}
+
+.about-paragraph{
+
+    margin-left:20px;
+}
